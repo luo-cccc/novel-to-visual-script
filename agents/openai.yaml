@@ -1,0 +1,4 @@
+interface:
+  display_name: "小说保核改编剧本"
+  short_description: "保留小说故事核心与运作机制，通过可见行动、声音和场面变化重构为完整剧本"
+  default_prompt: "使用 $novel-to-visual-script，把我提供的小说保留故事核心与小说机制，重构成可视化叙事剧本。"
