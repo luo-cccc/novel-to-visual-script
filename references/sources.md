@@ -17,10 +17,22 @@
 | story-skills / [adaptation](https://github.com/danjdewhurst/story-skills/blob/main/skills/adaptation/SKILL.md)、[revision-continuity](https://github.com/danjdewhurst/story-skills/blob/main/skills/revision-continuity/SKILL.md)、[reader-panel](https://github.com/danjdewhurst/story-skills/blob/main/skills/reader-panel/SKILL.md) | 场面取舍、返修后的依赖检查，以及不提前提供答案的模拟审读。 |
 | [zoec98 / story-skill](https://github.com/zoec98/story-skill/blob/main/story-skill/SKILL.md) | 检查关键节拍是否足以重建重要场面的行动与因果。 |
 
+## 本项目自建的部分
+
+以下内容不是从上表来源继承的，而是本项目针对“保核重构”这一任务自行约定的，改动时需同时更新对应用例：
+
+- 四层保留项（锁定项 / 核心 / 机制 / 实现，见 [mechanism-contract.md](mechanism-contract.md)）与 A–D 改编档位（见 [SKILL.md](../SKILL.md)）。
+- 去标签比较的四个维度：决定节点、关系网、信息揭示、解决方式与结尾。
+- 核心类型与必保条件表，用于把“核心吸引力”转成可操作判断。
+- 写前改编卡、方向确认点、[承接记录](adaptation-state.md) 结构。
+- 权属前提与规避请求的处理方式：情节的选择安排与人物关系组合同样可能受保护，因此 C、D 档默认只保留思想层面的东西。
+- [回归评测集](../evals/README.md)，用于改动后对比行为。
+
 ## 整合取舍
 
 - 保留场面、因果和观众视角的判断方法，不继承各来源的完整项目流程、固定短剧节奏、场数、镜头比例或对白秒数换算。
 - 按行为、反应和注意力组织段落，镜头设计后置；静音检查只辅助诊断，声音、独白和必要文字仍可承担关键叙事。
 - 用正文缺口与实际依赖指导返修，不采用质量打分、固定审稿轮数或强制通过。模拟阅读用于发现表达问题，不作为真实受众数据。
+- 载体弹性要求（[medium-profiles.md](medium-profiles.md)）只在用户指定载体时启用，默认不套用任何固定节奏。
 
-本项目在这些方法上建立保核换名与冲突重构的约定，重点维护必要机制条件、知识边界与长篇承接。具体要求分别见 [重构边界](mechanism-contract.md)、[场面写作](visual-scene-craft.md) 和 [交付格式](script-format.md)。
+本项目在这些方法上建立保核重构的约定，重点维护必要机制条件、知识边界与长篇承接。具体要求分别见 [重构边界](mechanism-contract.md)、[场面写作](visual-scene-craft.md) 和 [交付格式](script-format.md)。

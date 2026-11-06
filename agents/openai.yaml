@@ -1,4 +1,4 @@
 interface:
   display_name: "小说保核改编剧本"
-  short_description: "保留小说核心吸引力与机制，替换人名、物品、地点等名词，重做故事冲突并写成完整剧本"
-  default_prompt: "使用 $novel-to-visual-script，保留我提供小说的核心吸引力与机制，替换人名、物品、地点等名词，重做主要冲突及具体对抗事件，写成可视化叙事剧本。"
+  short_description: "保留小说核心吸引力与机制，重构人物关系与冲突，写成可拍可听的中文剧本"
+  default_prompt: "使用 $novel-to-visual-script，保留我提供小说的核心吸引力、必要机制与回报性质，替换人名、物品、地点等辨识性设定，重建人物关系与主要冲突，写成可视化叙事剧本。素材为我本人创作、公版或已获授权。"
